@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Рив Гош</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <link rel="shortcut icon" type="image/x-icon" media="all" href="img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.formstyler.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="container page-header__inner">
+      <div class="row">
+        <div class="page-header__first-line">
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <a class="page-header__logo" href="http://shop.rivegauche.ru/store/"><img src="img/logo.png"></a>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <form class="page-header__search-form">
+              <input type="search" placeholder="Я ищу"></input>
+              <i></i>
+            </form>
+            <div class="page-header__sity">
+              <select placeholder="Ваш город">
+                <option value="">Москва</option>
+                <option value="">Санкт-Петербург</option>
+                <option value="">Ростов-на-Дону</option>
+                <option value="">Краснодар</option>
+                <option value="">Тагарог</option>
+                <option value="">Петрозаводск</option>
+                <option value="">Ригга</option>
+                <option value="">Екатеринбург</option>
+                <option value="">Сочи</option>
+                <option value="">Москва</option>
+                <option value="">Санкт-Петербург</option>
+                <option value="">Ростов-на-Дону</option>
+                <option value="">Краснодар</option>
+                <option value="">Тагарог</option>
+                <option value="">Петрозаводск</option>
+                <option value="">Ригга</option>
+                <option value="">Екатеринбург</option>
+                <option value="">Сочи</option>
+                <option value="">Екатеринбург</option>
+                <option value="">Сочи</option>
+                <option value="">Москва</option>
+                <option value="">Санкт-Петербург</option>
+                <option value="">Ростов-на-Дону</option>
+                <option value="">Краснодар</option>
+                <option value="">Тагарог</option>
+                <option value="">Петрозаводск</option>
+                <option value="">Ригга</option>
+                <option value="">Екатеринбург</option>
+                <option value="">Сочи</option>
+                <option value="">Екатеринбург</option>
+                <option value="">Сочи</option>
+                <option value="">Москва</option>
+                <option value="">Санкт-Петербург</option>
+                <option value="">Ростов-на-Дону</option>
+                <option value="">Краснодар</option>
+                <option value="">Тагарог</option>
+                <option value="">Петрозаводск</option>
+                <option value="">Ригга</option>
+                <option value="">Екатеринбург</option>
+                <option value="">Сочи</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3">
+            <div class="card">
+              <p>В КОРЗИНЕ</p>
+              <p class="card_number-goods"><span id="number">0</span> товаров</p>
+              <p><span>0</span> &#8381</p>
+            </div>
+          </div>
+        </div>
+      </div> <!-- row end -->
+      <div class="row">
+        <div class="page-header__second-line">
+          <div class="col-md-9 col-sm-12">
+            <div class="action"><a href="#"></a></div>
+            <nav class="main-nav">
+              <div class="main-nav-hamburger__container">
+                <div class="main-nav-hamburger">
+                  <div class="hamburger__item"></div>
+                  <div class="hamburger__item"></div>
+                  <div class="hamburger__item"></div>
+                </div>
+                <h3>Меню</h3>
+              </div>
+              <ul class="main-nav__list">
+                <li class="main-nav__item">
+                  <a href="">Мир Рив Гош</a>
+                  <ul class="main-nav__sub-menu">
+                    <li class="main-nav__sub-menu__item"><a href="http://www.rivegauche.ru/image-studio">Экспресс-имидж-студия</a></li>
+                    <li class="main-nav__sub-menu__item"><a href="http://www.rivegauche.ru/institute">Студия красоты</a></li>
+                    <li class="main-nav__sub-menu__item"><a href="http://www.rivegauche.ru/content/nail-bar">Nail bar</a></li>
+                    <li class="main-nav__sub-menu__item"><a href="http://shop.rivegauche.ru/store/ru/brands">Бренды РИВ ГОШ</a></li>
+                  </ul>
+                </li>
+                <li class="main-nav__item">
+                  <a href="">Помощь</a>
+                  <ul class="main-nav__sub-menu">
+                    <li class="main-nav__sub-menu__item"><a href="http://shop.rivegauche.ru/store/ru/delivery">Доставка</a></li>
+                    <li class="main-nav__sub-menu__item"><a href="http://shop.rivegauche.ru/store/ru/how-to-order">Как заказать</a></li>
+                    <li class="main-nav__sub-menu__item"><a href="http://shop.rivegauche.ru/store/ru/payment-methods">Методы оплаты</a></li>
+                    <li class="main-nav__sub-menu__item"><a href="http://shop.rivegauche.ru/store/ru/pickup-in-store">Самовывоз</a></li>
+                  </ul>
+                </li>
+                <li class="main-nav__item"><a href="http://shop.rivegauche.ru/store/ru/payment-methods">Методы оплаты</a></li>
+                <li class="main-nav__item"><a href="http://shop.rivegauche.ru/store/ru/delivery">Доставка</a></li>
+                <li class="main-nav__item"><a href="http://shop.rivegauche.ru/store/ru/pickup-in-store">Самовывоз</a></li>
+                <li class="main-nav__item"><a href="http://shop.rivegauche.ru/store/ru/feedback">Связаться с нами</a></li>
+              </ul>
+            </nav> <!-- main nav end -->
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <a href="https://shop.rivegauche.ru/store/ru/login" class="btn-inter">Вход/Регистрация</a>
+          </div>
+        </div>
+      </div>
+    </div> <!-- container end -->
+  </header>
+  <section class="presentation">
+    <div class="container presentation__inner">
+      <div class="row">
+
+        <div class="col-md-12">
+          <div class="presentation-menu">
+            <div class="hamburger__container">
+              <div class="hamburger">
+                <div class="hamburger__item"></div>
+                <div class="hamburger__item"></div>
+                <div class="hamburger__item"></div>
+              </div>
+              <h3>Ассортимент</h3>
+            </div>
+            <ul class="presentation-menu__list">
+              <li class="presentation-menu__item">
+                <a href="http://shop.rivegauche.ru/store/ru/c/Perfumery">Парфюмерия</a>
+                <ul class="presentation-menu__sub-menu">
+                  <li class="presentation-menu__sub-menu__item"><a href="http://shop.rivegauche.ru/store/ru/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3/%D0%9F%D0%B0%D1%80%D1%84%D1%8E%D0%BC%D0%B5%D1%80%D0%B8%D1%8F/%D0%96%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B5-%D0%B0%D1%80%D0%BE%D0%BC%D0%B0%D1%82%D1%8B/c/Perfumery_Woman">Женские ароматы</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="http://shop.rivegauche.ru/store/ru/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3/%D0%9F%D0%B0%D1%80%D1%84%D1%8E%D0%BC%D0%B5%D1%80%D0%B8%D1%8F/%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%B8%D0%B5-%D0%B0%D1%80%D0%BE%D0%BC%D0%B0%D1%82%D1%8B/c/Perfumery_Men">Мужские ароматы</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="http://shop.rivegauche.ru/store/ru/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3/%D0%9F%D0%B0%D1%80%D1%84%D1%8E%D0%BC%D0%B5%D1%80%D0%B8%D1%8F/%D0%9D%D0%B8%D1%88%D0%B5%D0%B2%D0%B0%D1%8F-%D0%BF%D0%B0%D1%80%D1%84%D1%8E%D0%BC%D0%B5%D1%80%D0%B8%D1%8F/c/Perfumery_Niche"> Нишевая парфюмерия</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="http://shop.rivegauche.ru/store/ru/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3/%D0%9F%D0%B0%D1%80%D1%84%D1%8E%D0%BC%D0%B5%D1%80%D0%B8%D1%8F/%D0%90%D1%80%D0%BE%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F-%D0%B8-%D1%81%D0%B2%D0%B5%D1%87%D0%B8/c/Perfumery_Aromatherapy">Ароматерапия и свечи</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="http://shop.rivegauche.ru/store/ru/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3/%D0%9F%D0%BE%D0%B4%D0%B0%D1%80%D0%BA%D0%B8/%D0%9F%D0%B0%D1%80%D1%84%D1%8E%D0%BC%D0%B5%D1%80%D0%BD%D1%8B%D0%B5-%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%D1%8B/c/Sets_Parfumery">Парфюмерные наборы</a></li>
+                </ul>
+              </li>
+              <li class="presentation-menu__item">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3/%D0%9C%D0%B0%D0%BA%D0%B8%D1%8F%D0%B6/c/Makeup">Макияж</a>
+                <ul class="presentation-menu__sub-menu">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="sub-menu-block">
+                        <ul>
+                          <li><a href="">ДЛЯ ЛИЦА</a></li>
+                          <li><a href="">Праймеры</a></li>
+                          <li><a href="">BB/CC/EE кремы</a></li>
+                          <li><a href="">Тональные средства</a></li>
+                          <li><a href="">Корректоры / Консилеры</a></li>
+                          <li><a href="">Пудра</a></li>
+                          <li><a href="">Румяна</a></li>
+                          <li><a href="">Бронзант</a></li>
+                          <li><a href="">Хайлайтеры</a></li>
+                        </ul>
+                      </div>
+                      <div class="sub-menu-block">
+                        <ul>
+                          <li><a href="">ДЛЯ ГЛАЗ</a></li>
+                          <li><a href="">Тушь для ресниц</a></li>
+                          <li><a href="">Тени для век</a></li>
+                          <li><a href="">Карандаши и подводки</a></li>
+                          <li><a href="">Праймеры для век</a></li>
+                          <li><a href="">Накладные ресницы</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="sub-menu-block">
+                        <ul>
+                          <li><a href="">ДЛЯ НОГТЕЙ</a></li>
+                          <li><a href="">Базовое покрытие</a></li>
+                          <li><a href="">Лаки для ногтей</a></li>
+                          <li><a href="">Верхнее покрытие</a></li>
+                          <li><a href="">Средства для снятия лака</a></li>
+                          <li><a href="">Уход за ногтями</a></li>
+                        </ul>
+                      </div>
+                      <div class="sub-menu-block">
+                        <ul>
+                          <li><a href="">ДЛЯ БРОВЕЙ</a></li>
+                          <li><a href="">Карандаши для бровей</a></li>
+                          <li><a href="">Тени для бровей</a></li>
+                          <li><a href="">Гель для бровей</a></li>
+                          <li><a href="">Наборы для бровей</a></li>
+                        </ul>
+                      </div>
+                      <div class="sub-menu-block">
+                        <ul>
+                          <li><a href="">ДЛЯ ГУБ</a></li>
+                          <li><a href="">Губная помада</a></li>
+                          <li><a href="">Блеск для губ</a></li>
+                          <li><a href="">Бальзам для губ</a></li>
+                          <li><a href="">Карандаши для губ</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="sub-menu-block">
+                        <ul>
+                          <li><a href="">АКСЕССУАРЫ</a></li>
+                          <li><a href="">Кисти / Спонжи</a></li>
+                          <li><a href="">Косметички</a></li>
+                          <li><a href="">Зеркала</a></li>
+                          <li><a href="">Для снятия макияжа</a></li>
+                          <li><a href="">Для коррекции макияжа</a></li>
+                          <li><a href="">Для коррекции маникюра</a></li>
+                        </ul>
+                      </div>
+                      <div class="sub-menu-block">
+                        <ul>
+                          <li><a href="">КОСМЕТИЧЕСКИЕ НАБОРЫ</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div> <!-- row end -->
+                </ul>
+              </li>
+              <li class="presentation-menu__item">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3/%D0%A3%D1%85%D0%BE%D0%B4-%D0%B7%D0%B0-%D0%BA%D0%BE%D0%B6%D0%B5%D0%B9/c/SkinCare">Уход за кожей</a>
+                <ul class="presentation-menu__sub-menu">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="sub-menu-block">
+                        <ul>
+                          <li><a href="">УХОД ЗА ЛИЦОМ</a></li>
+                          <li><a href="">Очищение</a></li>
+                          <li><a href="">Увлажнение / Питаниеы</a></li>
+                          <li><a href="">Антивозрастной уход</a></li>
+                          <li><a href="">Уход за проблемной кожей</a></li>
+                          <li><a href="">Уход за кожей вокруг глаз</a></li>
+                          <li><a href="">Уход за губами</a></li>
+                          <li><a href="">Солнечная линия</a></li>
+                        </ul>
+                      </div>
+                      <div class="sub-menu-block">
+                        <ul>
+                          <li><a href="">УХОД ЗА ТЕЛОМ</a></li>
+                          <li><a href="">Дезодоранты</a></li>
+                          <li><a href="">Средства для душа и ванны</a></li>
+                          <li><a href="">Скрабы / Пилинги</a></li>
+                          <li><a href="">Увлажнение / Питание</a></li>
+                          <li><a href="">Тонус / Лифтинг</a></li>
+                          <li><a href="">Депиляция</a></li>
+                          <li><a href="">Антицеллюлит / Коррекция</a></li>
+                          <li><a href="">Солнечная линия</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="sub-menu-block">
+                        <ul>
+                          <li><a href="">УХОД ЗА РУКАМИ</a></li>
+                          <li><a href="">Увлажнение / Питание</a></li>
+                          <li><a href="">Скрабы / Пилинги</a></li>
+                          <li><a href="">Уход за ногтями</a></li>
+                        </ul>
+                      </div>
+                      <div class="sub-menu-block">
+                        <ul>
+                          <li><a href="">УХОД ЗА НОГАМИ</a></li>
+                          <li><a href="">Увлажнение / Питание</a></li>
+                          <li><a href="">Скрабы / Пилинги</a></li>
+                        </ul>
+                      </div>
+                      <div class="sub-menu-block">
+                        <ul>
+                          <li><a href="">АКСЕССУАРЫ</a></li>
+                          <li><a href="">Для снятия макияжа</a></li>
+                          <li><a href="">Для очищения кожи</a></li>
+                          <li><a href="">Инструменты</a></li>
+                          <li><a href="">Косметички</a></li>
+                        </ul>
+                      </div>
+                      <div class="sub-menu-block">
+                        <ul>
+                          <li><a href="">НАБОРЫ ПО УХОДУ ЗА ЛИЦОМ</a></li>
+                        </ul>
+                      </div>
+                      <div class="sub-menu-block">
+                        <ul>
+                          <li><a href="">НАБОРЫ ПО УХОДУ ЗА ТЕЛОМ</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div> <!-- row end -->
+                </ul>
+              </li>
+              <li class="presentation-menu__item">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3/%D0%A3%D1%85%D0%BE%D0%B4-%D0%B7%D0%B0-%D0%B2%D0%BE%D0%BB%D0%BE%D1%81%D0%B0%D0%BC%D0%B8/c/HairCare">Уход за волосами</a>
+                <ul class="presentation-menu__sub-menu">
+                  <li class="presentation-menu__sub-menu__item"><a href="">ШАМПУНИ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">КОНДИЦИОНЕРЫ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">МАСКИ, СЫВОРОТКИ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">СТАЙЛИНГ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">ОКРАШИВАНИЕ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">АКСЕССУАРЫ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">НАБОРЫ ПО УХОДУ ЗА ВОЛОСАМИ</a></li>
+                  <div class="sub-menu-block">
+                        <ul>
+                          <li><a href="">ПРОФЕССИОНАЛЬНАЯ КОСМЕТИКА ДЛЯ ВОЛОС</a></li>
+                          <li><a href="">Шампуни</a></li>
+                          <li><a href="">Кондиционеры, Бальзамы</a></li>
+                          <li><a href="">Маски, Сыворотки, Масла</a></li>
+                          <li><a href="">Стайлинг</a></li>
+                          <li><a href="">Аксессуары</a></li>
+                          <li><a href="">О проекте</a></li>
+                        </ul>
+                      </div>
+                </ul>
+              </li>
+              <li class="presentation-menu__item">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3/%D0%94%D0%BB%D1%8F-%D0%BC%D1%83%D0%B6%D1%87%D0%B8%D0%BD/c/Men">Для мужчин</a>
+                <ul class="presentation-menu__sub-menu">
+                  <li class="presentation-menu__sub-menu__item"><a href="">МУЖСКИЕ АРОМАТЫ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">ДЕЗОДОРАНТЫ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">ГЕЛИ ДЛЯ ДУША</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">ШАМПУНИ И КОНДИЦИОНЕРЫ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">СТАЙЛИНГ ДЛЯ ВОЛОС</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">СРЕДСТВА ДЛЯ БРИТЬЯ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">УХОД ЗА ЛИЦОМ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">УХОД ЗА ТЕЛОМ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">АКСЕССУАРЫ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">НАБОРЫ ДЛЯ МУЖЧИН</a></li>
+                </ul>
+              </li>
+              <li class="presentation-menu__item">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3/Organic/c/Organic">ORGANIC</a>
+                <ul class="presentation-menu__sub-menu">
+                  <li class="presentation-menu__sub-menu__item"><a href="">УХОД ЗА ЛИЦОМ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">УХОД ЗА ТЕЛОМ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">УХОД ЗА ВОЛОСАМИ</a></li>
+                </ul>
+              </li>
+              <li class="presentation-menu__item">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3/%D0%9F%D0%BE%D0%B4%D0%B0%D1%80%D0%BA%D0%B8/c/Gifts">Подарки</a>
+                <ul class="presentation-menu__sub-menu">
+                  <li class="presentation-menu__sub-menu__item"><a href="">ПОДАРКИ НА 14 ФЕВРАЛЯ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">ПАРФЮМЕРНЫЕ НАБОРЫ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">КОСМЕТИЧЕСКИЕ НАБОРЫ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">НАБОРЫ ПО УХОДУ ЗА ЛИЦОМ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">НАБОРЫ ПО УХОДУ ЗА ТЕЛОМ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">НАБОРЫ ПО УХОДУ ЗА ВОЛОСАМИ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">НАБОРЫ ДЛЯ ЖЕНЩИН</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">НАБОРЫ ДЛЯ МУЖЧИН</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">ПОДАРКИ НА 23 ФЕВРАЛЯ</a></li>
+                  <li class="presentation-menu__sub-menu__item"><a href="">ПОДАРКИ НА 8 МАРТА</a></li>
+                </ul>
+              </li>
+              <li class="presentation-menu__item">
+                <a href="http://shop.rivegauche.ru/store/ru/brands">Бренды</a></li>
+            </ul>
+          </div> <!-- presentation-menu end -->
+        </div>
+      </div> <!-- row end -->
+
+      <div class="row">
+        <div class="col-md-3">
+          <aside class="aside">
+            <h3>Мы рекомендуем</h3>
+            <ul class="aside-menu">
+              <li class="aside-menu__item"><a href="http://shop.rivegauche.ru/store/ru/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/%D0%92%D0%B8%D1%82%D1%80%D0%B8%D0%BD%D1%8B/%D0%A1%D0%BA%D0%B8%D0%B4%D0%BA%D0%B8/c/showcases_offer">Выбор РИВ ГОШ</a></li>
+              <li class="aside-menu__item"><a href="http://shop.rivegauche.ru/store/ru/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/%D0%92%D0%B8%D1%82%D1%80%D0%B8%D0%BD%D1%8B/%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B8/c/showcases_new">Новинки</a></li>
+              <li class="aside-menu__item"><a href="http://shop.rivegauche.ru/store/ru/%D0%9E%D1%81%D0%B5%D0%BD%D1%8C-2015/c/fall_2015">Осень 2015</a></li>
+              <li class="aside-menu__item"><a href="http://shop.rivegauche.ru/store/ru/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/%D0%9B%D0%B5%D1%82%D0%BE-2015/c/summer_2015">Лето 2015</a></li>
+              <li class="aside-menu__item"><a href="http://shop.rivegauche.ru/store/ru/%D0%A6%D0%B5%D0%BD%D0%B0-%D0%BC%D0%B5%D1%81%D1%8F%D1%86%D0%B0/c/month_price">Цена месяца</a></li>
+              <li class="aside-menu__item"><a href="http://shop.rivegauche.ru/store/ru/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3/%D0%A3%D1%85%D0%BE%D0%B4-%D0%B7%D0%B0-%D0%B2%D0%BE%D0%BB%D0%BE%D1%81%D0%B0%D0%BC%D0%B8/%D0%9F%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%B2%D0%BE%D0%BB%D0%BE%D1%81/c/HairCare_Professional">Профессиональная косметика для волос</a></li>
+            </ul>
+          </aside>
+        </div>
+        <div class="col-md-9">
+          <div class="present-slider">
+              <img src="img/slider_1.png" alt="">
+              <img src="img/slider_2.jpg" alt="">
+              <img src="img/slider_3.jpg" alt="">
+              <img src="img/slider_4.jpg" alt="">
+              <img src="img/slider_5.png" alt="">
+              <img src="img/slider_6.jpg" alt="">
+              <img src="img/slider_7.jpg" alt="">
+              <img src="img/slider_8.jpg" alt="">
+              <img src="img/slider_9.jpg" alt="">
+          </div>
+        </div>
+      </div> <!-- row end -->
+    </div>
+  </section><!--  presentation end -->
+  <section class="products">
+    <div class="container products__iner">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>НОВИНКИ</h2>
+        </div>
+      </div><!--  row end -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="products-slider">
+            <div class="products-slider__item">
+              <div class="products-slider__action">
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_offer"><i class="sale"></i></a>
+              </div>
+              <div class="products-slider__img">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/SHISEIDO/Shiseido-Pureness/p/52052"><img src="img/product_1.jpg" alt="Caudalie Дорожный набор"></a>
+              </div>
+              <div class="products-slider__text products-slider__title">
+              <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/SHISEIDO/Shiseido-Pureness/p/52052">Caudalie Дорожный набор</a>
+                <span>Очищающее средство</span>
+              </div>
+              <div class="products-slider__text products-slider__price">
+                <p>1 045 &#8381</p>
+                <p>699 &#8381</p>
+              </div>
+            </div>
+
+            <div class="products-slider__item">
+              <div class="products-slider__action">
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_offer"><i class="sale"></i></a>
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_new"><i class="new"></i></a>
+              </div>
+              <div class="products-slider__img">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/ELIE-SAAB/Elie-Saab-Gift-in-Pack-L%27eau-Couture/p/811087"><img src="img/product_2.jpg" alt="Elie Saab Gift in Pack L'eau Couture"></a>
+              </div>
+              <div class="products-slider__text products-slider__title">
+              <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/ELIE-SAAB/Elie-Saab-Gift-in-Pack-L%27eau-Couture/p/811087">Elie Saab Gift in Pack L'eau Couture</a>
+                <span>Набор</span>
+              </div>
+              <div class="products-slider__text products-slider__price">
+                <p>4 530 &#8381</p>
+                <p>2 299 &#8381</p>
+              </div>
+            </div>
+
+            <div class="products-slider__item">
+              <div class="products-slider__action">
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_bestsellers"><i class="best"></i></a>
+                
+              </div>
+              <div class="products-slider__img">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3/%D0%A3%D1%85%D0%BE%D0%B4-%D0%B7%D0%B0-%D0%BA%D0%BE%D0%B6%D0%B5%D0%B9/%D0%90%D0%BA%D1%81%D0%B5%D1%81%D1%81%D1%83%D0%B0%D1%80%D1%8B/%D0%94%D0%BB%D1%8F-%D0%BE%D1%87%D0%B8%D1%89%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BA%D0%BE%D0%B6%D0%B8/Clinique-Sonic-System-/p/791161"><img src="img/product_3.jpg" alt="Очищающая щетка для лица"></a>
+              </div>
+              <div class="products-slider__text products-slider__title">
+              <a href="http://shop.rivegauche.ru/store/ru/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3/%D0%A3%D1%85%D0%BE%D0%B4-%D0%B7%D0%B0-%D0%BA%D0%BE%D0%B6%D0%B5%D0%B9/%D0%90%D0%BA%D1%81%D0%B5%D1%81%D1%81%D1%83%D0%B0%D1%80%D1%8B/%D0%94%D0%BB%D1%8F-%D0%BE%D1%87%D0%B8%D1%89%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BA%D0%BE%D0%B6%D0%B8/Clinique-Sonic-System-/p/791161">Clinique Sonic System</a>
+                <span>Очищающая щетка для лица</span>
+              </div>
+              <div class="products-slider__text products-slider__price">
+                <p>8 000 &#8381</p>
+                <p>4 999 &#8381</p>
+              </div>
+            </div>
+
+            <div class="products-slider__item">
+              <div class="products-slider__action">
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_offer"><i class="sale"></i></a>
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_new"><i class="new"></i></a>
+              </div>
+              <div class="products-slider__img">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/FRESH-LINE/Fresh-Line-%D0%AD%D1%80%D0%B0%D1%82%D0%BE-%D0%9C%D0%B0%D1%81%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%B2%D0%BE%D0%BB%D0%BE%D1%81/p/746773"><img src="img/product_4.jpg" alt="Маска для волос"></a>
+              </div>
+              <div class="products-slider__text products-slider__title">
+              <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/FRESH-LINE/Fresh-Line-%D0%AD%D1%80%D0%B0%D1%82%D0%BE-%D0%9C%D0%B0%D1%81%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%B2%D0%BE%D0%BB%D0%BE%D1%81/p/746773">Fresh Line Эрато Маска для волос</a>
+                <span>Маска для волос</span>
+              </div>
+              <div class="products-slider__text products-slider__price">
+                <p>1 272 Р &#8381</p>
+                <p>699 &#8381</p>
+              </div>
+            </div>
+
+            <div class="products-slider__item">
+              <div class="products-slider__action">
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_offer"><i class="sale"></i></a>
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_new"><i class="new"></i></a>
+              </div>
+              <div class="products-slider__img">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/L%E2%80%99OREAL-PROFESSIONNEL/L%E2%80%99Oreal-Professionnel-Mythic-Oil-Shampoo/p/748994"><img src="img/product_5.jpg" alt="L’Oreal Professionnel Mythic Oil Shampoo"></a>
+              </div>
+              <div class="products-slider__text products-slider__title">
+              <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/L%E2%80%99OREAL-PROFESSIONNEL/L%E2%80%99Oreal-Professionnel-Mythic-Oil-Shampoo/p/748994">L’Oreal Professionnel Mythic Oil Shampoo</a>
+                <span>Шампунь</span>
+              </div>
+              <div class="products-slider__text products-slider__price">
+                <p>820 Р &#8381</p>
+                <p>549 &#8381</p>
+              </div>
+            </div>
+
+            <div class="products-slider__item">
+              <div class="products-slider__action">
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_offer"><i class="sale"></i></a>
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_new"><i class="new"></i></a>
+              </div>
+              <div class="products-slider__img">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/THIERRY-MUGLER/Thierry-Mugler-Alien-Eau-Extraordinaire/p/802262"><img src="img/product_6.jpg" alt="Thierry Mugler Alien Eau Extraordinaire"></a>
+              </div>
+              <div class="products-slider__text products-slider__title">
+              <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/THIERRY-MUGLER/Thierry-Mugler-Alien-Eau-Extraordinaire/p/802262">Thierry Mugler Alien Eau Extraordinaire</a>
+                <span>Туалетная вода (Eau de Toilette)</span>
+              </div>
+              <div class="products-slider__text products-slider__price">
+                <p>3 195 Р &#8381</p>
+                <p>от 1 899 &#8381</p>
+              </div>
+            </div>
+
+            <div class="products-slider__item">
+              <div class="products-slider__action">
+              </div>
+              <div class="products-slider__img">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/CLINIQUE/Clinique-Almost-Powder-Makeup-SPF-15/p/633012"><img src="img/product_7.jpg" alt="Thierry Clinique Almost Powder Makeup SPF 15"></a>
+              </div>
+              <div class="products-slider__text products-slider__title">
+              <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/CLINIQUE/Clinique-Almost-Powder-Makeup-SPF-15/p/633012">Clinique Almost Powder Makeup SPF 15</a>
+                <span>Пудра</span>
+              </div>
+              <div class="products-slider__text products-slider__price">
+                <p>2 370 Р &#8381</p>
+                <p>от 1 499 &#8381</p>
+              </div>
+            </div>
+
+          </div> <!-- products-slider end -->
+        </div>
+      </div>
+    </div>
+  </section> <!-- products end -->
+
+  <section class="products">
+    <div class="container products__iner">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>БЕСТСЕЛЛЕРЫ</h2>
+        </div>
+      </div><!--  row end -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="products-slider">
+            <div class="products-slider__item">
+              <div class="products-slider__action">
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_offer"><i class="sale"></i></a>
+              </div>
+              <div class="products-slider__img">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/SHISEIDO/Shiseido-Pureness/p/52052"><img src="img/product_1.jpg" alt="Caudalie Дорожный набор"></a>
+              </div>
+              <div class="products-slider__text products-slider__title">
+              <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/SHISEIDO/Shiseido-Pureness/p/52052">Caudalie Дорожный набор</a>
+                <span>Очищающее средство</span>
+              </div>
+              <div class="products-slider__text products-slider__price">
+                <p>1 045 &#8381</p>
+                <p>699 &#8381</p>
+              </div>
+            </div>
+
+            <div class="products-slider__item">
+              <div class="products-slider__action">
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_offer"><i class="sale"></i></a>
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_new"><i class="new"></i></a>
+              </div>
+              <div class="products-slider__img">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/ELIE-SAAB/Elie-Saab-Gift-in-Pack-L%27eau-Couture/p/811087"><img src="img/product_2.jpg" alt="Elie Saab Gift in Pack L'eau Couture"></a>
+              </div>
+              <div class="products-slider__text products-slider__title">
+              <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/ELIE-SAAB/Elie-Saab-Gift-in-Pack-L%27eau-Couture/p/811087">Elie Saab Gift in Pack L'eau Couture</a>
+                <span>Набор</span>
+              </div>
+              <div class="products-slider__text products-slider__price">
+                <p>4 530 &#8381</p>
+                <p>2 299 &#8381</p>
+              </div>
+            </div>
+
+            <div class="products-slider__item">
+              <div class="products-slider__action">
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_bestsellers"><i class="best"></i></a>
+                
+              </div>
+              <div class="products-slider__img">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3/%D0%A3%D1%85%D0%BE%D0%B4-%D0%B7%D0%B0-%D0%BA%D0%BE%D0%B6%D0%B5%D0%B9/%D0%90%D0%BA%D1%81%D0%B5%D1%81%D1%81%D1%83%D0%B0%D1%80%D1%8B/%D0%94%D0%BB%D1%8F-%D0%BE%D1%87%D0%B8%D1%89%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BA%D0%BE%D0%B6%D0%B8/Clinique-Sonic-System-/p/791161"><img src="img/product_3.jpg" alt="Очищающая щетка для лица"></a>
+              </div>
+              <div class="products-slider__text products-slider__title">
+              <a href="http://shop.rivegauche.ru/store/ru/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3/%D0%A3%D1%85%D0%BE%D0%B4-%D0%B7%D0%B0-%D0%BA%D0%BE%D0%B6%D0%B5%D0%B9/%D0%90%D0%BA%D1%81%D0%B5%D1%81%D1%81%D1%83%D0%B0%D1%80%D1%8B/%D0%94%D0%BB%D1%8F-%D0%BE%D1%87%D0%B8%D1%89%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BA%D0%BE%D0%B6%D0%B8/Clinique-Sonic-System-/p/791161">Clinique Sonic System</a>
+                <span>Очищающая щетка для лица</span>
+              </div>
+              <div class="products-slider__text products-slider__price">
+                <p>8 000 &#8381</p>
+                <p>4 999 &#8381</p>
+              </div>
+            </div>
+
+            <div class="products-slider__item">
+              <div class="products-slider__action">
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_offer"><i class="sale"></i></a>
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_new"><i class="new"></i></a>
+              </div>
+              <div class="products-slider__img">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/FRESH-LINE/Fresh-Line-%D0%AD%D1%80%D0%B0%D1%82%D0%BE-%D0%9C%D0%B0%D1%81%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%B2%D0%BE%D0%BB%D0%BE%D1%81/p/746773"><img src="img/product_4.jpg" alt="Маска для волос"></a>
+              </div>
+              <div class="products-slider__text products-slider__title">
+              <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/FRESH-LINE/Fresh-Line-%D0%AD%D1%80%D0%B0%D1%82%D0%BE-%D0%9C%D0%B0%D1%81%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%B2%D0%BE%D0%BB%D0%BE%D1%81/p/746773">Fresh Line Эрато Маска для волос</a>
+                <span>Маска для волос</span>
+              </div>
+              <div class="products-slider__text products-slider__price">
+                <p>1 272 Р &#8381</p>
+                <p>699 &#8381</p>
+              </div>
+            </div>
+
+            <div class="products-slider__item">
+              <div class="products-slider__action">
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_offer"><i class="sale"></i></a>
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_new"><i class="new"></i></a>
+              </div>
+              <div class="products-slider__img">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/L%E2%80%99OREAL-PROFESSIONNEL/L%E2%80%99Oreal-Professionnel-Mythic-Oil-Shampoo/p/748994"><img src="img/product_5.jpg" alt="L’Oreal Professionnel Mythic Oil Shampoo"></a>
+              </div>
+              <div class="products-slider__text products-slider__title">
+              <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/L%E2%80%99OREAL-PROFESSIONNEL/L%E2%80%99Oreal-Professionnel-Mythic-Oil-Shampoo/p/748994">L’Oreal Professionnel Mythic Oil Shampoo</a>
+                <span>Шампунь</span>
+              </div>
+              <div class="products-slider__text products-slider__price">
+                <p>820 Р &#8381</p>
+                <p>549 &#8381</p>
+              </div>
+            </div>
+
+            <div class="products-slider__item">
+              <div class="products-slider__action">
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_offer"><i class="sale"></i></a>
+                <a href="http://shop.rivegauche.ru/store/ru/c/showcases_new"><i class="new"></i></a>
+              </div>
+              <div class="products-slider__img">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/THIERRY-MUGLER/Thierry-Mugler-Alien-Eau-Extraordinaire/p/802262"><img src="img/product_6.jpg" alt="Thierry Mugler Alien Eau Extraordinaire"></a>
+              </div>
+              <div class="products-slider__text products-slider__title">
+              <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/THIERRY-MUGLER/Thierry-Mugler-Alien-Eau-Extraordinaire/p/802262">Thierry Mugler Alien Eau Extraordinaire</a>
+                <span>Туалетная вода (Eau de Toilette)</span>
+              </div>
+              <div class="products-slider__text products-slider__price">
+                <p>3 195 Р &#8381</p>
+                <p>от 1 899 &#8381</p>
+              </div>
+            </div>
+
+            <div class="products-slider__item">
+              <div class="products-slider__action">
+              </div>
+              <div class="products-slider__img">
+                <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/CLINIQUE/Clinique-Almost-Powder-Makeup-SPF-15/p/633012"><img src="img/product_7.jpg" alt="Thierry Clinique Almost Powder Makeup SPF 15"></a>
+              </div>
+              <div class="products-slider__text products-slider__title">
+              <a href="http://shop.rivegauche.ru/store/ru/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/%D0%92%D1%81%D0%B5-%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D1%8B/CLINIQUE/Clinique-Almost-Powder-Makeup-SPF-15/p/633012">Clinique Almost Powder Makeup SPF 15</a>
+                <span>Пудра</span>
+              </div>
+              <div class="products-slider__text products-slider__price">
+                <p>2 370 Р &#8381</p>
+                <p>от 1 499 &#8381</p>
+              </div>
+            </div>
+
+          </div> <!-- products-slider end -->
+        </div>
+      </div>
+    </div>
+  </section> <!-- products end -->
+
+  <footer class="page-footer">
+    <div class="container page-footer_inner">
+      <div class="footer__first-line">
+        <div class="row">
+          <div class="col-md-3 col-sm-4 col-xm-12">
+            <div class="footer-column">
+              <ul class="social-item">
+                <li><a class="social-item__icon--vk" href="http://vk.com/rivegauche">Вконтакте</a></li>
+                <li><a class="social-item__icon--fb" href="http://www.facebook.com/pages/%D0%A0%D0%98%D0%92-%D0%93%D0%9E%D0%A8/158247184218893">Facebook</a></li>
+                <li><a class="social-item__icon--tw" href="https://twitter.com/RiveGaucheRu">twitter</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-4">
+            <div class="footer-column">
+              <h3>ДЛЯ ПОКУПАТЕЛЕЙ</h3>
+              <ul class="footer-column__list">
+                <li class="footer-column__item"><a href="http://shop.rivegauche.ru/store/ru/my-account">Вход в личный кабинет</a></li>
+                <li class="footer-column__item"><a href="https://shop.rivegauche.ru/store/ru/login">Регистрация</a></li>
+                <li class="footer-column__item"><a href="http://shop.rivegauche.ru/store/ru/#">Информация для покупателей</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-4">
+            <div class="footer-column">
+              <h3>Мини - справочник</h3>
+              <ul class="footer-column__list">
+                <li class="footer-column__item"><a href="http://shop.rivegauche.ru/store/ru/luxury-perfumes">Элитная парфюмерия</a></li>
+                <li class="footer-column__item"><a href="http://shop.rivegauche.ru/store/ru/men-perfumes">Мужская парфюмерия</a></li>
+                <li class="footer-column__item"><a href="http://shop.rivegauche.ru/store/ru/women-perfumes">Женская парфюмерия</a></li>
+                <li class="footer-column__item"><a href="http://shop.rivegauche.ru/store/ru/how-buy-perfume">Как купить духи</a></li>
+                <li class="footer-column__item"><a href="http://shop.rivegauche.ru/store/ru/cosmetics">Декоративная косметика</a></li>
+                <li class="footer-column__item"><a href="http://shop.rivegauche.ru/store/ru/how-buy-cosmetics">Как купить косметику</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <div class="footer-column">
+              <a href="http://shop.rivegauche.ru/store/ru/feedback" class="btn-feed-back"></a>
+            </div>
+          </div>
+        </div>
+      </div> <!-- footer__first-line end -->
+      <div class="footer__second-line">
+        <div class="row">
+          <div class="col-md-3 col-sm-3 col-xm-12">
+            <div class="footer-copyright">
+              <a href="http://shop.rivegauche.ru/store/ru/" class="footer-logo"></a>
+              <div class="footer-copyright__line"></div>
+              <p class="footer-copyright__text">© 2015 РИВ ГОШ (1.3.3.0)</p>
+              <p class="footer-copyright__all">Все права защищены</p>
+            </div>
+          </div>
+          <div class="col-md-8 col-sm-9">
+            <div class="footer__info">
+              <div class="footer__phone">
+                <p>Горячая линия <span>8 800 333 20 20</span></p><img src="img/tel_icon.png">
+              </div>
+              <div class="footer__text-block">
+                <p>По поводу технических проблем обращайтесь <a href="mailto:shopadmin@rivegauche.ru">shopadmin@rivegauche.ru</a></p>
+                <p>Цены действительны только для интернет-магазина РИВ ГОШ.</p>
+              </div>
+              <div class="footer-menu">
+                <ul class="footer-menu__list">
+                  <li class="footer-menu__item"><a href="http://www.rivegauche.ru/">На сайт РивГош</a></li>
+                  <li class="footer-menu__item"><a href="http://shop.rivegauche.ru/store/ru/delivery">Доставка</a></li>
+                  <li class="footer-menu__item"><a href="http://shop.rivegauche.ru/store/ru/payment-methods">Оплата</a></li>
+                  <li class="footer-menu__item"><a href="http://shop.rivegauche.ru/store/ru/infopage">Информация</a></li>
+                  <li class="footer-menu__item footer-menu__item--brends"><a href="http://shop.rivegauche.ru/store/ru/brands">БРЕНДЫ</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-0">
+            <div class="footer-payment">
+              <div class="footer-payment__img">
+              </div>
+            </div>
+          </div>
+        </div> <!-- footer__second-line end -->
+      </div> <!-- row end -->
+    </div> <!-- page-footer_inner end -->
+  </footer>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/jquery.formstyler.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
