@@ -1070,6 +1070,6 @@ o.`Y8b 88""   Yb        88   88 Yb   dP 88 Y88     88""   88 Y88  8I  dY
     display: none;
   }
   .slick-dots{
-    display: none;
+    display: none !important;
   }
 } /* 767 end */
